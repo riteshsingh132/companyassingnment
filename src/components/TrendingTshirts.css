@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.trendingBox{
+    width: 1120px;
+    height: 48px;
+    margin: 68px auto 48.11px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trendingBox h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47.99px;
+    align-items: center;
+    color: #1C1C1C;
+    
+}
+
+.line{
+    width: 380px;
+    border: 1px solid #FFC7D1;
+    height:"0";
+}
+
+.cartWrapper{
+    width: 1120px;
+    margin: 48.11px auto 0 auto;
+
+}
+
+.sizeWrapper div{
+    border: 1px solid #ccc;
+    width: 36px;
+    height: 36px;
+   
+   text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sizeWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 236px;
+    margin: 0 auto;
+}
+.sizeWrapper p{
+    margin: 9.5px 0;
+}
+
+.produtcTitle{
+    width: 147px;
+    height: 34px;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17.07px;
+}
+.priceWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 79px;
+    height: 18px;
+    margin: 10px auto;
+}
+
+.priceWrapper :nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #1f1f1f;
+}
+
+.priceWrapper :nth-child(2){
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ff0000;
+}
+.btnbox{
+    width: 170px;
+    height: 48px;
+    background-color: #770015;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: 500;
+}
+
+.borderbtn{
+    width: 170px;
+    margin: 0 auto 68px auto;
+
+}
+/* .imagewithIcon{
+    display: flex;
+    position: absolute;
+} */
+
+.ImageIconWrapper{
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* .ImageIconWrapper */
+.iconwrapper{
+    position:absolute;
+    top:50%;
+    width: 194px;
+    margin: 0 auto;
+    transform: translate(19%,-50%);
+    
+    display: flex;
+    justify-content: space-between;
+    
+}

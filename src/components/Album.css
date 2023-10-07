@@ -1,0 +1,38 @@
+.albumWrapper{
+    width: 1120px;
+    margin: 0 auto;
+}
+.firstRow{
+    display: flex;
+    gap: 20px;
+}
+
+.parentCard{
+    width: 360px;
+    position:relative;
+    margin: 0 0 20px 0;
+    
+}
+
+.childCard{
+    position:absolute;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.01));
+    top: 84%;
+    opacity:0.9;
+    width: 360px;
+    height:68.23px; 
+    text-align: center;
+    backdrop-filter: blur(20px)
+}
+
+.childCard p{
+    width: 207px;
+    margin: 20.62px 76.5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26.66px;
+    color: #FFFFFF;
+    
+}
+
+

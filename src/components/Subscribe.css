@@ -1,0 +1,68 @@
+.subsCribeBox{
+width: 1120px;
+margin: 70px auto;
+align-items: center;
+text-align: center;
+background-color: #770015;
+height: 312px;
+position: relative;
+}
+
+.subsCribeBox h1{
+    width: 694px;
+    text-align: center;
+    margin: 60.42px auto 0  auto;
+    color: #ffffff;
+}
+
+/* .InputButton{
+    width: 645px;
+    display: flex;
+    justify-content: center;
+} */
+
+.inputButtonwrapper{
+    width: 645px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 22px;
+    color:#ffffff;
+    /* background-color:; */
+}
+.inputButtonwrapper input{
+    border: none;
+    border-radius: 0;
+    backdrop-filter: blur(20px);
+    opacity: 0.5;
+    color: white;
+}
+
+
+
+.inputButtonwrapper button{
+    color: #770015;
+    background-color: #ffffff;
+    border: none;
+    font-weight: 600;
+    padding: 19.5px 21.5px;
+    
+
+}
+
+.inputButtonwrapper input :focus{
+    background-color: #770015;
+}
+
+.vector{
+        position:absolute;
+        margin: 0 0 0 -600px;
+}
+.vectorRight{
+    position:absolute;
+    margin: 0 0 0 390px;
+}
+
+

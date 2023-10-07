@@ -1,0 +1,79 @@
+.saleWrapper{
+    width: 1120px;
+    margin: 68px auto 0 auto;
+    
+    gap: 24px;
+    position: relative;
+}
+
+.salesCardfirst{
+    width: 548px;
+    background: #CCCEA7;
+    text-align: center;
+}
+
+.imageWrapper{
+    margin: 54.86px auto 0 auto;
+
+}
+
+.salesCardfirst h2{
+    margin: 48.27px  auto 22px auto;
+    font-size: 36px;
+
+}
+
+.salesCardfirst h1{
+    margin: 0  auto 0 auto;
+    font-size: 82px;
+    width: 328px;
+    font-weight: 600;
+    line-height: 111.97px;
+    align-items: center;
+}
+.salesCardfirst h4{
+    margin: 22px auto;
+    font-size: 36px;
+    line-height: 47.99px;
+
+}
+.salesCardfirst button{
+    color: white;
+    border: 1px solid #ffffff;
+    background-color: #CCCEA7;
+    font-size: 16px;
+    padding: 14px 36.5px;
+    margin: 0 auto 54.86px auto;
+    font-weight: 500;
+    line-height: 19.5px;
+
+}
+
+.services{
+    width: 1366px;
+    margin: 90px auto 0 auto;
+    background-color: #F5F4F2;
+    padding: 39.5px 0;
+    
+}
+.servicesItem{
+    width: 1120px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sideBorder{
+    border-right: 1px solid red;
+
+}
+
+.discount{
+    background-color: #D6BEBE;
+}
+.discount button{
+    background-color: #D6BEBE;
+    
+}
+
