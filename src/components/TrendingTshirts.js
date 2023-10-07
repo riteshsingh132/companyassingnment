@@ -26,9 +26,9 @@ function TrendingTshirts() {
         <div className='row' style={{ marginBottom: "48.11px" }}>
           {/* 1st product */}
 
-          <div className='col-3'>
-            <div className='row'>
-              <div className='mergeIcon' style={{ position: "relative", display: "inline-block" }}>
+          <div className='col-sm-3'>
+            <div className=''>
+              <div className='mergeIcon' >
                 <img src={cartImg1} alt='cartImg1' style={{ width: "100%", height: "auto" }} />
                 <div className='iconwrapper'>
                   <a><img src={addtoCart} /></a>
@@ -63,7 +63,7 @@ function TrendingTshirts() {
           {/* </div>/ */}
 
           {/* 2nd product row */}
-          <div className='col-3'>
+          <div className='col-sm-3'>
             <img src={cartImg2} alt='cartImg2' />
             <div className='produtcTitle'>
               <p>Men Henley Neck Full Sleeve Red Wine</p>
@@ -85,7 +85,7 @@ function TrendingTshirts() {
 
           {/* 3rd */}
 
-          <div className='col-3'>
+          <div className='col-sm-3'>
             <img src={cartImg3} alt='cartImg3' />
             <div className='produtcTitle'>
               <p>Men Henley Neck Full Sleeve Red Wine</p>
@@ -106,7 +106,7 @@ function TrendingTshirts() {
           </div>
 
           {/* 4th */}
-          <div className='col-3'>
+          <div className='col-sm-3'>
             <img src={cartImg4} alt='cartImg4' />
             <div className='produtcTitle'>
               <p>Men Henley Neck Full Sleeve Red Wine</p>
@@ -131,7 +131,7 @@ function TrendingTshirts() {
         {/* 2nd row */}
         <div className='row' style={{ marginBottom: "48.11px" }}>
           {/* 1st product */}
-          <div className='col-3'>
+          <div className='col-sm-3'>
             <img src={cartImg5} alt='cartImg5' />
             <div className='produtcTitle'>
               <p>Men Henley Neck Full Sleeve Red Wine</p>
@@ -152,7 +152,7 @@ function TrendingTshirts() {
           </div>
 
           {/* 2nd product row */}
-          <div className='col-3'>
+          <div className='col-sm-3'>
             <img src={cartImg2} alt='cartImg2' />
             <div className='produtcTitle'>
               <p>Men Henley Neck Full Sleeve Red Wine</p>
@@ -174,7 +174,7 @@ function TrendingTshirts() {
 
           {/* 3rd */}
 
-          <div className='col-3'>
+          <div className='col-sm-3'>
             <img src={cartImg3} alt='cartImg3' />
             <div className='produtcTitle'>
               <p>Men Henley Neck Full Sleeve Red Wine</p>
@@ -195,7 +195,7 @@ function TrendingTshirts() {
           </div>
 
           {/* 4th */}
-          <div className='col-3'>
+          <div className='col-sm-3'>
             <img src={cartImg6} alt='cartImg4' />
             <div className='produtcTitle'>
               <p>Men Henley Neck Full Sleeve Red Wine</p>

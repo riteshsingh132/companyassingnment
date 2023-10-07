@@ -18,7 +18,7 @@ function Main() {
       <Navbarcomp />
       <Hero />
       <CategoryComp />
-      {/* <TrendingTshirts /> */}
+      <TrendingTshirts />
       {/* <FeaturedProduct />  */}
       {/* <Banner /> */}
       {/* <Newproduct /> */}
